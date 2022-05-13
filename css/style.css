@@ -1,0 +1,250 @@
+
+:root{
+    --theme-color: #3A257E;
+    --font-color: #482F9A;
+    --secondary-font-color: #4D526C;
+}
+header{}
+
+header .header-image{
+        max-width: 100px;
+}
+body h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #123D8E;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/***************************hero-banner-section**********************/
+
+.hero1 {
+    background-image: url(../images/hero-img.jpeg);
+    width: 100%;
+    height: 878px;
+    background-position: bottom;
+    background-size: cover;
+}
+.hero1 h1{color: var(--theme-color);text-transform: uppercase;font-weight: 600;padding-top: 350px;margin-bottom: 0;letter-spacing: -2px;}
+.hero1 p{color: #fff;font-weight: 600;margin-bottom: 0;padding-left: 85px;font-size: 20px;}
+
+.hero2 {
+    background: var(--theme-color);
+    padding-bottom: 20px;
+}
+.hero2 h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.hero2 span{text-decoration: underline;}
+.hero2 img {
+    width: 50px;
+    height: 50px;
+}
+.hero2 p {
+    color: #fff;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.hero-banner-section .card {
+    background-color: transparent;
+    border: 0px solid rgba(0,0,0,.125);
+}
+.card-body {
+    padding: 10px 0;
+}
+
+
+
+/***************************car-lenders**********************/
+.lenders-section{
+
+padding: 20px 0;}
+
+.lenders-section h1 {
+    margin-bottom: 0;
+    color: var(--theme-color);
+    font-weight: 700;
+    text-align: center;
+}
+.lenders-section p {
+    color: var(--font-color);
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+padding-bottom: 30px;}
+
+.lenders-section img{
+
+max-width: 100px;}
+
+
+
+/************************new-customer-section*********************/
+
+.new-customer {
+    padding-bottom: 50px;
+}
+.new-customer .content {
+    padding: 66px 0;
+}
+.new-customer .content h1 {
+    color: var(--font-color);
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.new-customer .content p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.new-customer .content p span{
+    color: blue;
+    opacity: 0.7;
+
+}
+.new-customer .content a {
+    
+    
+    color: white;
+   
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.new-customer .content a:hover {
+    transform: scale(1.2);
+}
+.btn-custom {
+    background: #012169;
+    padding: 8px 34px;
+    margin: 20px 0 10px;
+    border-radius: 7px;
+}
+.btn-custom:hover{}
+.new-customer .content sup{}
+.new-customer .content .apr {
+    opacity: 0.6;
+}
+
+.new-customer-img{}
+.new-customer-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+/*=======================available-car-finance===============*/
+.available-car-finance-section {
+    background-image: url(../images/purpleback1.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+   
+}
+
+.car-finance-content {
+    padding-top: 212px;
+}
+.car-finance-content h1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.car-finance-content p {
+    margin-bottom: 0;
+    color: #fff;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+padding-bottom: 20px;}
+.car-finance-content a{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.car-finance-content a:hover {
+    transform: scale(1.2);
+    background: #fff;
+    color: var(--font-color);
+    font-weight: 800;
+}
+.car-finance-content .btn-custom{}
+
+
+/*=======================range===============*/
+.range-section{
+padding-bottom: 100px;
+}
+.range-section .content{
+    
+border: 3px solid var(--font-color);padding: 40px 20px 20px;height: 360px;}
+.range-section .content h2{
+    
+color: #171F75;font-size: 30px;font-weight: 700;padding-bottom: 10px;margin-bottom: 0;}
+.range-section .content p{
+    
+margin-bottom: 0;color: #171F75;font-weight: 600;font-size: 18px;padding-bottom: 15px;}
+
+.range-section .content a {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.range-section .content a:hover{
+    transform: scale(1.2);
+}
+
+
+/* =======================review-section===============*/
+.review-section{
+    padding-bottom: 50px;
+}
+.review-section h1 {
+    color: var(--font-color);
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    letter-spacing: 2.4px;
+    font-size: 55px;
+}
+.review-section img {
+    height: 445px;
+}
+.review-section .card-title {
+    color: var(--secondary-font-color);
+    
+    font-weight: 600;
+    text-decoration: underline;
+    padding-top: 20px;
+font-size: 30px;}
+.review-section .card-text {
+    color: var(--secondary-font-color);
+    font-size: 17px;
+    text-shadow: 1px 0px 2px var(--secondary-font-color);
+padding-top: 10px;}
+.review-section a {
+    color: var(--secondary-font-color);
+    font-size: 17px;
+    text-shadow: 1px 0px 2px var(--secondary-font-color);
+    padding-top: 10px;
+}
+
+.review-section .card {
+    border: 0px solid rgba(0,0,0,.125);
+}
